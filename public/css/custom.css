@@ -1,0 +1,12 @@
+/*
+ * Custom CSS for my blog.
+ */
+
+table.footer_bar tbody tr td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+table.footer_bar {
+  table-layout: fixed;
+}
