@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         redcarpet
-pygments:         true
+highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
@@ -9,7 +9,7 @@ permalink:        pretty
 title:            Something Witty
 tagline:          My Code Blog
 url:              http://jackmc.github.io
-paginate:         1
+paginate:         5
 baseurl:          /
 author:
   name:           Jack McCracken
