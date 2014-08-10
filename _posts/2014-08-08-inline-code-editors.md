@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Day 5 - Embeddable Code Editors
-date: 2014-08-07 23:59:59
+date: 2014-08-08 23:59:59
 ---
 So today wasn't very exciting in terms of web development learning, but it took
 up two hours. This, as it seems, is a common problem in programming. You can
