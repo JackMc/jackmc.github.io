@@ -23,8 +23,8 @@ vendor/ and app/ directories are the generated application.js and
 application.css files which add together all of the CSS and JS assets which you
 wanted to have included in your pages. The problem arises when you want to
 dynamically load these assets. After a large amount of experimentation, I
-installed the Heroku rails_12factor gem and sticking the code into the public
-directory. For example, I keep a codemirror directory under an assets_static
+installed the Heroku rails\_12factor gem and sticking the code into the public
+directory. For example, I keep a codemirror directory under an assets\_static
 directory in public. This contains all the modes and themes to be dynamically
 loaded.
 
