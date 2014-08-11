@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Day 7 - Nice Assets
-date: 2014-08-09 23:59:59
+date: 2014-08-10 22:30:00
 ---
 So today I spent most of the day wrestling with the Rails asset pipeline, and
 this didn't involve any, to quote myself, "typey-typey where the words are all
