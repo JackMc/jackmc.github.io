@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            Jack McCracken
 tagline:          Development, Rambling, and the Occasional Good Point
-url:              http://jackmc.github.io
+url:              https://jackmc.xyz
 paginate:         5
 baseurl:          /
 author:
