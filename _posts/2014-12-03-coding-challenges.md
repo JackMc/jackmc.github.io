@@ -22,7 +22,7 @@ an integer into an English representation of that number (for example 156
 becomes one hundred and fifty-six). I'm not going to post the code here so as to
 encourage competition and working it out yourself, but the basic idea I used is
 to have a couple dictionaries which you can index into to get the string
-representation of a set of digits with a one-work representation (for example 10
+representation of a set of digits with a one-word representation (for example 10
 = ten, 20 = twenty, 2 = two, 13 = thirteen) and then to index into those
 dictionaries and do a recursive call to find out the rest of the digits' naming
 if necessary.
