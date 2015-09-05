@@ -6,8 +6,8 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            Something Witty
-tagline:          My Code Blog
+title:            Jack McCracken
+tagline:          Development, Rambling, and the Occasional Good Point
 url:              http://jackmc.github.io
 paginate:         5
 baseurl:          /
