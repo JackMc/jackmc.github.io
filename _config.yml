@@ -1,22 +1,74 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-
-# Permalinks
-permalink:        pretty
-
-# Setup
 title:            Jack McCracken
-tagline:          Development, Rambling, and the Occasional Good Point
-url:              https://jackmc.xyz
-paginate:         5
-baseurl:          /
-author:
-  name:           Jack McCracken
-  url:            http://twitter.com/koalamedian
-  email:          jackamc19@gmail.com
+description:      Development, Rambling, and the Occasional Good Point.
+disqus_shortname: neohpstrtheme
+reading_time:     true
+words_per_minute: 200
+logo:             images/logo.png
+# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
+# When testing locally leave blank or use http://localhost:4000
+#url: https://jackmc.xyz
 
-# Custom vars
-version:          1.0.0
-github:
-  repo:           https://github.com/poole/poole
+menu:
+  - title: 'Home'
+    url: '/'
+  - title: 'About'
+    url: '/about'
+
+# Owner/author information
+owner:
+  name:           Jack McCracken
+  site:           https://jackmc.xyz
+  avatar:         images/avatar.jpg
+  bio:            "I'm a software developer from Ottawa, Ontario. I am passionate about open data and data science. If you'd like to chat, send me an email."
+  email:          jackamc19@gmail.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter: koalamedian
+  github: JackMc
+  linkedin: jackmccracken
+  # google plus id, include the '+', eg +AronBordin
+  google_plus: +JackMcCrackenOtt
+
+social:
+  - title: "github"
+    url: "https://github.com/JackMc"
+  - title: "linkedin"
+    url: "https://ca.linkedin.com/in/jackmccracken"
+# Background image to be tiled on all pages
+background:
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: 
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/New_York
+future:      true
+highlighter: pygments
+markdown:    kramdown
+gems:
+  - jekyll-sitemap
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+# Amount of post to show on home page
+paginate: 5
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: true
+
+  coderay:
+    coderay_line_numbers: nil
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
