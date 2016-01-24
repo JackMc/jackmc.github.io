@@ -1,33 +1,47 @@
-# Neo-HPSTR Jekyll Theme
-Based on https://github.com/mmistakes/hpstr-jekyll-theme
+# Lora - free Jekyll theme
 
-Demo: http://aronbordin.com/neo-hpstr-jekyll-theme
-
-# Live Demo
-
-You can see it running [here](http://blog.rhesoft.com/) and [here](http://aronbordin.com/neo-hpstr-jekyll-theme/).
-
-
-## What HPSTR brings to the table:
-
-* Modern design.
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrades in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Sweet topbar animated menu with support for drop-downs.
-* Optional [Disqus](http://disqus.com) comments and social sharing links.
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page](http://mmistakes.github.io/hpstr-jekyll-theme/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting](http://mmistakes.github.io/hpstr-jekyll-theme/code-highlighting-post/) to make your code examples look snazzy
-* Author panel, with social links
-* Read more tag support(similar with Wordpress ).
-
-![Preview](http://aron-bordin.github.io/neo-hpstr-jekyll-theme/images/neo-hpstr-jekyll-theme-preview.png)
-
+> :warning:
+  This theme requires ruby and rubygems installed
 
 ---
 
-## Getting Started
+### Start in 4 steps
 
-Neo-HPSTR takes advantage of Sass and data files to make customizing easier. These features require Jekyll 2.x and will not work with older versions of Jekyll.
+1. Download or clone repo `git clone git@github.com:nandomoreirame/lora.git`
+2. Enter the folder: `cd lora/`
+3. Install Ruby gems: `bundle install`
+4. Start Jekyll server: `jekyll serve`
 
-To learn how to install and use this theme check out the [Setup Guide(Original)](http://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/) for more information.
+Access, [localhost:4000](http://localhost:4000/)
+
+### Deploy in Github pages in 2 steps
+
+1. Change the variables `GITHUB_REPONAME` and `GITHUB_REPO_BRANCH` in `Rakefile`
+2. Run `rake` or `rake publish` for build and publish on Github
+
+---
+
+### Using Rake tasks
+
+* Create a new page: `rake page name="contact.md"`
+* Create a new post: `rake post title="TITLE OF THE POST"`
+
+---
+
+### Demo and Download
+
+[Demo](http://nandomoreira.me/lora/)
+[Download](https://github.com/nandomoreirame/lora/archive/master.zip)
+
+![Lora - free Jekyll theme](/screenshot.png)
+
+---
+
+### Copyright and license
+
+Lora is under [the MIT license](/LICENSE).
+
+> :warning:
+  Please remove metas `<meta name="robots" content="noindex">` and `<meta name="googlebot" content="noindex">` in `_layouts/default.html`
+
+Enjoy :yum:
