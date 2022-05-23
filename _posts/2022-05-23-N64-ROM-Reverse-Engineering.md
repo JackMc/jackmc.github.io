@@ -169,7 +169,7 @@ a3 5e 8d 3f
 
 Entering this into the game, we get the flag!!
 
-![The stage 1 screen from above. The text FLAG-HZQC is on the left of the screen. The remainder of the flag is redacted.](sixtyforce_n64_stage1flag.png)
+![The stage 1 screen from above. The text FLAG-HZQC is on the left of the screen. The remainder of the flag is redacted.](/images/sixtyforce_n64_stage1flag.png)
 
 ## Stage 2
 
@@ -219,7 +219,7 @@ flipped. We change that bit to a `0`, giving us
 ## Conclusion
 
 All in, this challenge probably took us 8 hours.
-As a group of folks who aren't super experienced
+As someone who isn't super experienced
 in reverse engineering, I feel like this was 
 right at the limit of do-ability for me. 
 
