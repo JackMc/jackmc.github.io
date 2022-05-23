@@ -190,7 +190,7 @@ individually (see screenshot for some examples).
 
 ![A screenshot of Binary Ninja. Several rules of the form `if ((other_y_pos & 0b1) & 0b1) != 0)` are displayed in a control flow graph.](/images/binaryninja_stage02_rules.png)
 
-We wrote another program to bruteforce these
+We wrote [another program](https://gist.github.com/JackMc/095a5c6c83ae24d6225615eff9cda009) to bruteforce these
 rules. We ran it:
 
 ```
