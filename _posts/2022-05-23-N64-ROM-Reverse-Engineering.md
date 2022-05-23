@@ -5,7 +5,7 @@ layout: post
 ---
 
 This weekend I participated in the [NorthSec 2022 CTF](https://nsec.io/competition/)
-with a bunch of friends who either presently or used to work for Shopify.
+with a bunch of friends who I either presently or used to work with.
 Overall, the CTF was really well run and incredibly fun! Today I wanted
 to talk about one of the challenges which was outside of my comfort zone
 that we ended up solving after a lot of work! 
@@ -32,7 +32,8 @@ late-90s nostalgia:
 
 Pressing Start as instructed brought us to a screen with four hex numbers that, after a 
 bit of fiddling with the controls, we realized could be incremented and decremented with
-the A and B buttons, and the Z button moved between numbers.
+the A and B buttons. We also learned that the Z button switched
+between the numbers.
 
 ![A picture of the SixtyForce emulator running the ROM. There are yellow mushrooms lining the bottom of the screen, and the text "00 00 00 00" is centred.](/images/sixtyforce_n64_stage1.png)
 
