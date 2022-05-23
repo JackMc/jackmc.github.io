@@ -139,15 +139,16 @@ numbers can be. For example:
 
 ```c
 // XOR first number with second number.
-char xor_of_one_and_two = ((*(int8_t*)input_bytes) ^ *(int32_t*)((char*)input_bytes + 1));
-int32_t return;
+char xor_of_one_and_two = input_bytes[0] ^ input_bytes[1];
+int32_t return_value;
 if (((uint32_t)(xor_of_one_and_two & 0xf0)) != 0xf0)
 {
-    return = 0xffffffff;
+    // Displays INCORRECT message
+    return_value = 0xffffffff;
 }
 else if (((uint32_t)(xor_of_one_and_two & 0xf)) != 0xd)
 {
-    return = 0xffffffff;
+    return_value = 0xffffffff;
 }
 ```
 
