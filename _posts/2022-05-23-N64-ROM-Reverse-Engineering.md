@@ -204,7 +204,7 @@ description, it mentioned [Project64](https://www.pj64-emu.com/).
 This emulator has a built in debugger, which is
 exactly what we need! It only runs on Windows, 
 but one of our teammates lent us their Linux 
-machine with Windows. 
+machine with wine. 
 
 I don't have screenshots, but we ran through the 
 evaluation function `proceduralOperation` one
