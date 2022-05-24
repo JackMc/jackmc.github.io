@@ -2,6 +2,8 @@
 title: N64 ROM Reverse Engineering (NorthSec 2022)
 date: 2022-05-23 16:23:00
 layout: post
+image:
+  path: /images/sixtyforce_n64.png
 ---
 
 This weekend I participated in the [NorthSec 2022 CTF](https://nsec.io/competition/)
