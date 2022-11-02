@@ -4,3 +4,4 @@
 
 layout: home
 ---
+<img src="https://ipad.jackmc.xyz/simple_visit" width="0">
