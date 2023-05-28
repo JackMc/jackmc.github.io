@@ -12,7 +12,7 @@ Overall, the CTF was really well run and incredibly fun! Today I wanted
 to talk about one of the challenges which was outside of my comfort zone
 that we ended up solving after a lot of work! 
 I worked on this challenge with my teammates 
-Mariana and Erin, which made it even more fun! 
+Mar and Erin, which made it even more fun! 
 
 ## The Challenge
 
