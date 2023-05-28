@@ -5,10 +5,7 @@ layout: post
 ---
 
 Once again this year I participated in the [NorthSec CTF](https://nsec.io/competition).
-This is one of my favourite infosec events of the year. 
-
-Today I wanted to talk about a challenge I worked on called The Great Processor by [@becojo](https://twitter.com/becojo).
-I worked on this challenge with my teammate Saba.
+This is one of my favourite infosec events of the year. Today I wanted to talk about a challenge I worked on called The Great Processor by [@becojo](https://twitter.com/becojo). I worked on this challenge with my teammate Saba.
 
 This challenge presented itself initially as a command-line spreadsheet tool but had some
 very interesting internals. 
